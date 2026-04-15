@@ -273,9 +273,7 @@ export default function Portfolio() {
                 <FaLinkedin size={18} /> LinkedIn
               </Button>
             </a>
-            {/* <Button variant="outline" className="flex items-center gap-2">
-              <Download size={18} /> Download CV
-            </Button> */}
+            
           </motion.div>
         </div>
       </section>
