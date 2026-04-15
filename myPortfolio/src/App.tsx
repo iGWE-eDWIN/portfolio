@@ -125,7 +125,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
-import { Download, ExternalLink, Code2, Mail } from "lucide-react";
+import {  ExternalLink, Code2, Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
@@ -268,7 +268,7 @@ export default function Portfolio() {
                 <FaGithub size={18} /> GitHub
               </Button>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/edwin-igwe-ab83a2249" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="flex items-center gap-2">
                 <FaLinkedin size={18} /> LinkedIn
               </Button>
