@@ -24,7 +24,7 @@ import {
   FaArrowRight,
   FaStar,
   FaCheckCircle,
-  FaExclamationTriangle,
+  // FaExclamationTriangle,
 } from "react-icons/fa";
 import { ProjectModal } from "./components/ProjectModal";
 import type { ProjectData } from "./components/ProjectModal";
@@ -376,7 +376,7 @@ export default function Portfolio() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full border text-cyan-400 text-xs sm:text-sm font-semibold tracking-wide"
                 style={{ background: "rgba(30,41,59,0.8)", borderColor: "rgba(255,255,255,0.1)" }}>
                 <FaStar size={12} className="text-cyan-400" />
-                <span>Full Stack Product Engineer</span>
+                <span>Full Stack Engineer</span>
                 <span className="text-slate-500">•</span>
                 <span className="text-slate-300">Rivers, Nigeria (Open to Remote)</span>
               </motion.div>
