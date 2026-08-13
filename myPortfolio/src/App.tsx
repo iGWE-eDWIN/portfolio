@@ -151,10 +151,10 @@ const skillCategories = [
   {
     name: "Backend & APIs",
     icon: <FaServer className="text-indigo-400" size={18} />,
-    skills: ["Node.js", "Express.js", "Django REST Framework", "Python", "Java", "RESTful APIs", "Socket.IO"]
+    skills: ["Node.js", "Express.js", "Django REST Framework", "RESTful APIs", "Socket.IO"]
   },
   {
-    name: "Databases & Cloud",
+    name: "Databases",
     icon: <FaDatabase className="text-emerald-400" size={18} />,
     skills: ["PostgreSQL", "Supabase", "MongoDB", "Mongoose", "MySQL"]
   },
@@ -440,7 +440,7 @@ export default function Portfolio() {
                   </div>
                   <div className="grid grid-cols-3 gap-3 pt-2 text-center border-t border-slate-800">
                     {[
-                      { val: "5+", label: "Live Apps", color: "text-cyan-400" },
+                      { val: "1", label: "Live App", color: "text-cyan-400" },
                       { val: "100%", label: "Solo Built", color: "text-indigo-400" },
                       { val: "B.Sc.", label: "UniPort CS", color: "text-emerald-400" }
                     ].map(s => (
@@ -514,13 +514,13 @@ export default function Portfolio() {
                     <p className="text-slate-300 text-sm leading-relaxed line-clamp-3">{project.desc}</p>
 
                     {/* Challenge callout */}
-                    <div className="p-3.5 rounded-xl space-y-1" style={{ background: "rgba(251,191,36,0.08)", border: "1px solid rgba(251,191,36,0.2)" }}>
+                    {/* <div className="p-3.5 rounded-xl space-y-1" style={{ background: "rgba(251,191,36,0.08)", border: "1px solid rgba(251,191,36,0.2)" }}>
                       <div className="flex items-center gap-1.5 font-semibold text-amber-400 text-xs">
                         <FaExclamationTriangle size={12} className="flex-shrink-0" />
                         <span>Core Engineering Challenge</span>
                       </div>
                       <p className="line-clamp-2 pl-5 text-[12px] text-slate-300">{project.challenge}</p>
-                    </div>
+                    </div> */}
                   </div>
 
                   {/* Stack + actions */}
